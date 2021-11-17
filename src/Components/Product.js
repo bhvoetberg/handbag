@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Product({promote, image, name, price}) {
+function Product({promotion, image, name, price}) {
     return (
         <>
             <article>
-                <span>{promote}</span>
+                <span>{promotion}</span>
                 <img src={image} alt={name} />
                 <p>{name}</p>
                 <h4>{price}</h4>
